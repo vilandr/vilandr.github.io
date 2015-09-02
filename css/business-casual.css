@@ -268,8 +268,9 @@ footer p {
     width: 275px;
     height: 200px;
 }
+
 @media screen and (max-width: 767px) {
-    ul>img, ul>li>.glyphicon {
+    ul>img, .navbar-nav>li>span {
         display: none;
     }
     .brand,
@@ -306,6 +307,10 @@ footer p {
         background-image: none;
         background-color: #779ecb;
     }
+    .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
 }
 @media screen and (max-width: 350px) {
     #blutech>h5 {
@@ -315,11 +320,37 @@ footer p {
         width: 240px;
         height: 150px;
     }
+    #infantsee {
+        position: absolute;
+        top: 3%;
+        right: 9%;
+        width: 35%;
+    }
+    #infantsee>h5 {
+        font-size: 13px;
+        color: white;
+    }
+    #infantsee>p {
+        display: none;
+    }
 }
 @media (min-width: 351px) and (max-width: 413px) {
     #blutech>h5 {
         color: white;
         font-size: 10px;
+    }
+    #infantsee {
+        position: absolute;
+        top: 3%;
+        right: 9%;
+        width: 35%;
+    }
+    #infantsee>h5 {
+        font-size: 15px;
+        color: white;
+    }
+    #infantsee>p {
+        display: none;
     }
 }
 @media screen and (max-width: 413px) {
@@ -334,9 +365,6 @@ footer p {
         font-size: 16px;
     }
     #eyewear>p {
-        display: none;
-    }
-    #infantsee {
         display: none;
     }
     #patientappreciation {
