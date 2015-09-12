@@ -246,9 +246,6 @@ ul.nav.navbar-nav>li>a {
     #quoteLeft, #quoteRight {
         display: none;
     }
-    .facebookContainer {
-        text-align: center;
-    }
     .carousel-indicators li {
         background-color: black;
     }
@@ -308,9 +305,9 @@ footer p {
         background-color: #779ecb;
     }
     .col-xs-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 @media screen and (max-width: 350px) {
     #blutech>h5 {
@@ -395,6 +392,16 @@ footer p {
         height: 250px;
         width: 100%;
     }
+    .services>.col-xs-6>h4 {
+        font-size: 17px;
+    }
+    .services>.col-xs-6>img {
+        width: 125px;
+        height: 100px;
+    }
+    .not-working-box {
+        height: 375px;
+    }
 }
 @media (min-width: 350px) and (max-width: 529px) {
     #blutech {
@@ -469,6 +476,16 @@ footer p {
         height: 250px;
         width: 80%;
     }
+    .services>.col-xs-6>h4 {
+        font-size: 14px;
+    }
+    .services>.col-xs-6>img {
+        width: 175px;
+        height: 150px;
+    }
+    .not-working-box {
+        height: 450px;
+    }
 }
 @media (min-width: 530px) and (max-width: 767px) {
     #patientappreciation {
@@ -504,6 +521,16 @@ footer p {
     .exam-room>figure>img {
         height: 250px;
         width: 60%;
+    }
+    .services>.col-xs-6>h4 {
+        font-size: 20px;
+    }
+    .services>.col-xs-6>img {
+        width: 225px;
+        height: 200px;
+    }
+    .not-working-box {
+        height: 550px;
     }
 }
 @media (min-width: 530px) and (max-width: 634px) {
@@ -765,6 +792,13 @@ footer p {
         width: 75%;
         margin: 0 auto;
     }
+    .services>.col-xs-6>img {
+        width: 225px;
+        height: 200px;
+    }
+    .not-working-box {
+        height: 550px;
+    }
 }
 @media (min-width: 869px) and (max-width:991px) {
     .brand {
@@ -984,6 +1018,13 @@ footer p {
     #staffphoto {
         width: 75%;
         margin: 0 auto;
+    }
+    .services>.col-xs-6>img {
+        width: 250px;
+        height: 225px;
+    }
+    .not-working-box {
+        height: 600px;
     }
 }
 /* Big 992-1199px */
@@ -1258,6 +1299,10 @@ footer p {
         font-size: 10.5px;
         margin: auto;
     }
+    .services>.col-xs-6>img {
+        width: 275px;
+        height: 250px;
+    }
     /*#buildingPhoto {
         width: 95%;
         height: 255px;
@@ -1448,7 +1493,7 @@ footer p {
     .sidebarLinks>a>img {
         margin: 10px auto;
         min-width: 50px;
-        width: 80%;
+        width: 70%;
         height: 85px;
     }
     .sidebarLinks>a>img:hover {
@@ -1581,12 +1626,22 @@ footer p {
         font-size: 11.5px;
         margin: auto;
     }
+    .services>.col-xs-6>img {
+        width: 275px;
+        height: 250px;
+    }
     /*#buildingPhoto {
         width: 95%;
         height: 255px;
     }*/
 }
 @media screen and (min-width: 1500px) {
+    .sidebarLinks>a>img {
+        margin: 10px auto;
+        min-width: 50px;
+        width: 50%;
+        height: 85px;
+    }
     #patientforms:hover, ul.nav.navbar-nav>li>a:hover {
         border-bottom: 1px solid #779ecb;
         text-decoration: none;
